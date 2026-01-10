@@ -68,7 +68,7 @@ public class Demo{
     public static void main(String a[]){
         TextView text = new PlainTextView("Gaurav");
 
-        System.out.println("Palin: ");
+        System.out.println("Plain: ");
         text.render();
         System.out.println();
 
