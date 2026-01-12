@@ -104,7 +104,7 @@ class GoalNotifier implements FitnessDataObserver {
 
 // client code
 public class Demo {
-    public static void main(String[] args) {
+    public static void main(String[] a) {
         FitnessData fitnessData = new FitnessData();
 
         LiveActicivityDisplay display = new LiveActicivityDisplay();
@@ -119,7 +119,7 @@ public class Demo {
         // Simulate updates
         fitnessData.newFitnessDataPushed(500, 5, 20);
         fitnessData.newFitnessDataPushed(9800, 85, 350);
-        fitnessData.newFitnessDataPushed(10100, 90, 380); // Goal should trigger
+        fitnessData.newFitnessDataPushed(10100, 90, 380); 
 
         // Daily reset
         notifier.reset();
