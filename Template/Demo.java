@@ -73,7 +73,7 @@ class PdfReportExporter extends AbstractReportExporter {
 }
 
 public class Demo {
-    public static void main(String[] args) {
+    public static void main(String[] a) {
         ReportData data = new ReportData();
 
         AbstractReportExporter csvExporter = new CsvReportExporter();
